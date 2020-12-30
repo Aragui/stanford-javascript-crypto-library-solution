@@ -3,7 +3,7 @@
 
 ###  The problem
 
-In [this codepen](https://codepen.io/jlubean/pen/DHmtr) there is a implementation example for SJCL where you can play with the library, but it does nothing.
+In [this codepen](https://codepen.io/jlubean/pen/DHmtr) there is an implementation example for SJCL where you can play with the library, but it does nothing.
 
 ### The solution
 

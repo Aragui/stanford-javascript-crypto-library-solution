@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital@1&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Karla', sans-serif;
+}
+
+.header{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #007EA7;
+}
+
+.header h1{
+    color: #fff;
+}
+
+.main{
+    width: 100%;
+    height: calc(100vh - 80px);
+    display: flex;
+    justify-content: center;
+    background-color: #80CED7;
+}
+
+.main-section{
+    width: 70%;
+    background-color: #9AD1D4;
+    display: flex;
+    align-items: center;
+}
+
+.main-section__form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-section__form-password{
+    width: 200px;
+    border: none;
+    outline: none;
+    border-radius: 12px;
+    padding: 8px;
+    margin: 10px 0;
+}
+
+.main-section__form-stuff{
+    width: 400px;
+    height: 50px;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    padding: 8px;
+    margin: 10px 0;
+}
+
+.main-section__form-results{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin: 18px 0;
+}
+
+.main-section__form-results__result{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-section__form-button{
+    outline: none;
+    background: none;
+    border: none;
+    border-radius: 8px;
+    background-color: #007EA7;
+    color: #fff;
+    padding: 10px;
+    font-weight: 800;
+    transition: 0.2s;
+}
+
+.main-section__form-button:hover{
+    transform: scale(1.1);
+}
+
+.main-section__form-button:active{
+    transform: scale(0.9);
+}
+
+.main-section__form-text{
+    width: 400px;
+    height: 50px;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    padding: 8px;
+}
+

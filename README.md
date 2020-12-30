@@ -10,3 +10,5 @@ In [this codepen](https://codepen.io/jlubean/pen/DHmtr) there is a implementatio
 The js script doesn't work because the script tag it's at the head tag of the document, when the interpreter reads the script the DOM doesn't exist yet.
 
 Then the solution is, move this script tag to the bottom of the body and add JQuery.
+
+You can try the solution [here](https://aragui.github.io/stanford-javascript-crypto-library-solution/)
